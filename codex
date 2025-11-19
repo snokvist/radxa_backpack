@@ -1,0 +1,9 @@
+. $HOME/esp/esp-idf/export.sh
+idf.py -p /dev/ttyACM0 flash
+idf.py -p /dev/ttyACM0 monitor
+idf.py build
+sudo chmod +777 /dev/ttyACM0
+
+
+codex resume 019a935a-e318-7d50-9900-899749869452
+codex resume 019a935a-e318-7d50-9900-899749869452
